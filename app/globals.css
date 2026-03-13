@@ -1,0 +1,778 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   MEDIOT SHIELD - CYBERSECURITY THEME
+   Professional SOC Monitoring Platform Styling
+   ============================================================================ */
+
+/* CSS Variables for Theme */
+:root {
+  /* Primary Colors */
+  --bg-primary: #0b0f1a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #374151;
+
+  /* Accent Colors */
+  --accent-success: #22c55e;
+  --accent-warning: #eab308;
+  --accent-danger: #ef4444;
+  --accent-info: #0284c7;
+  --accent-purple: #8b5cf6;
+
+  /* Text Colors */
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+
+  /* Borders */
+  --border-light: #334155;
+  --border-dark: #1e293b;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px 0 rgba(0, 0, 0, 0.7);
+  --shadow-lg: 0 10px 15px 0 rgba(0, 0, 0, 0.8);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+}
+
+/* ============================================================================
+   GLOBAL STYLES
+   ============================================================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ============================================================================
+   TYPOGRAPHY
+   ============================================================================ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: 2.5rem;
+  /* 40px */
+  line-height: 1.2;
+  margin-bottom: var(--spacing-lg);
+}
+
+h2 {
+  font-size: 1.875rem;
+  /* 30px */
+  line-height: 1.3;
+  margin-bottom: var(--spacing-md);
+}
+
+h3 {
+  font-size: 1.5rem;
+  /* 24px */
+  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+}
+
+h4 {
+  font-size: 1.25rem;
+  /* 20px */
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 1.125rem;
+  /* 18px */
+}
+
+h6 {
+  font-size: 1rem;
+  /* 16px */
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-secondary);
+}
+
+small {
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+}
+
+/* ============================================================================
+   CARDS & CONTAINERS
+   ============================================================================ */
+
+@layer components {
+  .card-base {
+    @apply rounded-lg border transition-all duration-200;
+    background-color: var(--bg-secondary);
+    border-color: var(--border-light);
+    box-shadow: var(--shadow-md);
+  }
+
+  .card-base:hover {
+    @apply border-slate-500;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+  }
+
+  .card {
+    @apply p-6 card-base;
+  }
+
+  .card-sm {
+    @apply p-4 card-base;
+  }
+
+  .card-lg {
+    @apply p-8 card-base;
+  }
+
+  .card-header {
+    @apply mb-6 pb-4 border-b;
+    border-color: var(--border-light);
+  }
+
+  /* Metric Cards */
+  .metric-card {
+    @apply card-sm;
+  }
+
+  .metric-card-success {
+    @apply metric-card border-green-900 bg-green-950/20;
+  }
+
+  .metric-card-warning {
+    @apply metric-card border-yellow-900 bg-yellow-950/20;
+  }
+
+  .metric-card-danger {
+    @apply metric-card border-red-900 bg-red-950/20;
+  }
+
+  .metric-card-info {
+    @apply metric-card border-blue-900 bg-blue-950/20;
+  }
+
+  /* Alert Cards */
+  .alert-card {
+    @apply card-sm border-l-4;
+  }
+
+  .alert-card-critical {
+    @apply alert-card border-l-red-500 bg-red-950/20;
+  }
+
+  .alert-card-warning {
+    @apply alert-card border-l-yellow-500 bg-yellow-950/20;
+  }
+
+  .alert-card-info {
+    @apply alert-card border-l-blue-500 bg-blue-950/20;
+  }
+
+  /* Status Indicators */
+  .status-badge {
+    @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold;
+  }
+
+  .status-online {
+    @apply status-badge bg-green-950/40 text-green-400;
+  }
+
+  .status-offline {
+    @apply status-badge bg-slate-950/40 text-slate-400;
+  }
+
+  .status-suspicious {
+    @apply status-badge bg-yellow-950/40 text-yellow-400;
+  }
+
+  .status-critical {
+    @apply status-badge bg-red-950/40 text-red-400;
+  }
+
+  /* Data Table */
+  .data-table {
+    @apply w-full;
+  }
+
+  .data-table thead tr {
+    border-bottom-color: var(--border-light);
+  }
+
+  .data-table tbody tr {
+    @apply border-b transition-colors duration-150;
+    border-color: var(--border-dark);
+  }
+
+  .data-table tbody tr:hover {
+    background-color: rgba(148, 163, 184, 0.05);
+  }
+
+  .data-table th {
+    @apply px-6 py-4 text-left text-sm font-semibold;
+    color: var(--text-tertiary);
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .data-table td {
+    @apply px-6 py-4 text-sm;
+  }
+
+  /* Section Headers */
+  .section-header {
+    @apply mb-8;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold mb-2;
+    color: var(--text-primary);
+  }
+
+  .section-subtitle {
+    @apply text-sm;
+    color: var(--text-tertiary);
+  }
+
+  /* ============================================================================
+     TYPOGRAPHY UTILITY CLASSES - Consistent hierarchy across components
+     ============================================================================ */
+
+  .text-section-title {
+    @apply text-lg font-bold tracking-tight;
+    color: var(--text-primary);
+  }
+
+  .text-card-title {
+    @apply text-sm font-semibold uppercase tracking-wider;
+    color: var(--text-primary);
+  }
+
+  .text-label {
+    @apply text-xs font-medium uppercase tracking-wider;
+    color: var(--text-tertiary);
+  }
+
+  .text-caption {
+    @apply text-xs font-normal;
+    color: var(--text-tertiary);
+  }
+
+  /* ============================================================================
+     SPACING UTILITY CLASSES - Consistent grid and component spacing
+     ============================================================================ */
+
+  .section-spacing {
+    @apply mb-8 mt-2;
+  }
+
+  .metric-grid-spacing {
+    @apply gap-6;
+  }
+
+  .chart-grid-spacing {
+    @apply gap-8;
+  }
+
+  .card-spacing {
+    @apply p-6;
+  }
+
+  /* Buttons */
+  .btn-base {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-200 px-4 py-2;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800;
+  }
+
+  .btn-danger {
+    @apply btn-base bg-red-600 text-white hover:bg-red-700 active:bg-red-800;
+  }
+
+  .btn-success {
+    @apply btn-base bg-green-600 text-white hover:bg-green-700 active:bg-green-800;
+  }
+
+  .btn-secondary {
+    @apply btn-base bg-slate-700 text-slate-100 hover:bg-slate-600 active:bg-slate-800;
+  }
+
+  .btn-ghost {
+    @apply btn-base bg-transparent text-slate-300 hover:bg-slate-800 active:bg-slate-900;
+  }
+
+  /* Input Fields */
+  .input-base {
+    @apply w-full rounded-lg border px-4 py-2 text-slate-100 transition-colors duration-150;
+    background-color: var(--bg-secondary);
+    border-color: var(--border-light);
+  }
+
+  .input-base:focus {
+    @apply outline-none;
+    border-color: var(--accent-info);
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2 py-1 text-xs font-semibold;
+  }
+
+  .badge-success {
+    @apply badge bg-green-950/40 text-green-400;
+  }
+
+  .badge-warning {
+    @apply badge bg-yellow-950/40 text-yellow-400;
+  }
+
+  .badge-danger {
+    @apply badge bg-red-950/40 text-red-400;
+  }
+
+  .badge-info {
+    @apply badge bg-blue-950/40 text-blue-400;
+  }
+
+  /* Progress Bar */
+  .progress-bar {
+    @apply h-2 w-full overflow-hidden rounded-full;
+    background-color: rgba(100, 116, 139, 0.2);
+  }
+
+  .progress-bar-success {
+    @apply progress-bar;
+  }
+
+  .progress-bar-success > div {
+    background-color: var(--accent-success);
+  }
+
+  .progress-bar-warning {
+    @apply progress-bar;
+  }
+
+  .progress-bar-warning > div {
+    background-color: var(--accent-warning);
+  }
+
+  .progress-bar-danger {
+    @apply progress-bar;
+  }
+
+  .progress-bar-danger > div {
+    background-color: var(--accent-danger);
+  }
+
+  /* Dividers */
+  .divider {
+    @apply my-6;
+    border-color: var(--border-light);
+  }
+
+  /* Grid Layout */
+  .grid-metrics {
+    @apply grid gap-4 md:grid-cols-2 lg:grid-cols-4;
+  }
+
+  .grid-charts {
+    @apply grid gap-8 lg:grid-cols-2;
+  }
+
+  .grid-content {
+    @apply grid gap-6 md:grid-cols-2;
+  }
+}
+
+/* ============================================================================
+   ANIMATIONS
+   ============================================================================ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .animate-slideInUp {
+    animation: slideInUp 0.3s ease-out;
+  }
+
+  .animate-slideInDown {
+    animation: slideInDown 0.3s ease-out;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+}
+
+/* ============================================================================
+   CHART STYLING
+   ============================================================================ */
+
+/* Recharts customization */
+.recharts-wrapper {
+  font-family: inherit !important;
+  font-size: 0.875rem !important;
+}
+
+.recharts-text {
+  fill: var(--text-secondary) !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: var(--text-secondary) !important;
+  font-size: 0.875rem !important;
+}
+
+.recharts-legend-wrapper {
+  padding-top: 20px !important;
+}
+
+.recharts-legend-item-text {
+  color: var(--text-secondary) !important;
+  font-size: 0.875rem !important;
+}
+
+/* ============================================================================
+   SCROLLBAR STYLING
+   ============================================================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--border-light);
+}
+
+/* ============================================================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================================================ */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    @apply p-4;
+  }
+
+  .data-table th,
+  .data-table td {
+    @apply px-3 py-2 text-xs;
+  }
+
+  .grid-metrics {
+    @apply grid gap-3 md:grid-cols-2;
+  }
+
+  .grid-charts {
+    @apply grid gap-6 lg:grid-cols-1;
+  }
+}
+
+/* ============================================================================
+   ACCESSIBILITY
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus visible for keyboard navigation */
+:focus-visible {
+  @apply outline-none ring-2 ring-offset-2;
+  ring-color: var(--accent-info);
+  outline-offset: 2px;
+}
+
+/* ============================================================================
+   UTILITY CLASSES
+   ============================================================================ */
+
+.text-gradient {
+  background: linear-gradient(135deg, #0284c7 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.border-gradient {
+  position: relative;
+  border: 1px solid transparent;
+  background: linear-gradient(var(--bg-secondary), var(--bg-secondary)) padding-box,
+    linear-gradient(135deg, #0284c7, #8b5cf6) border-box;
+}
+
+.glass-effect {
+  background-color: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(100, 116, 139, 0.2);
+}
+
+/* ============================================================================
+   CYBER DEFENSE MODE - NEON EFFECTS
+   ============================================================================ */
+
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(239, 68, 68, 0.3), 0 0 10px rgba(239, 68, 68, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.8), 0 0 30px rgba(239, 68, 68, 0.5),
+      inset 0 0 10px rgba(239, 68, 68, 0.2);
+  }
+}
+
+@keyframes neon-border {
+  0%, 100% {
+    border-color: rgba(239, 68, 68, 0.3);
+    box-shadow: 0 0 5px rgba(239, 68, 68, 0.2);
+  }
+  50% {
+    border-color: rgba(239, 68, 68, 0.8);
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6), inset 0 0 5px rgba(239, 68, 68, 0.1);
+  }
+}
+
+@keyframes cyber-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes cyber-heartbeat {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(239, 68, 68, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.7), 0 0 40px rgba(239, 68, 68, 0.4);
+  }
+}
+
+/* Utility classes for Cyber Defense Mode */
+.cyber-neon-glow {
+  animation: neon-glow 2.5s ease-in-out infinite;
+}
+
+.cyber-border {
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  animation: neon-border 2s ease-in-out infinite;
+}
+
+/* Enhanced cyber alert with combined neon-glow and pulse */
+.cyber-neon-alert {
+  animation: neon-glow 2.5s ease-in-out infinite, cyber-pulse 1.5s ease-in-out infinite;
+}
+
+.cyber-pulse {
+  animation: cyber-pulse 1.5s ease-in-out infinite;
+}
+
+.cyber-heartbeat {
+  animation: cyber-heartbeat 1.2s ease-in-out infinite;
+}
+
+/* ============================================================================
+   GLASSMORPHISM EFFECTS - CINEMATIC SOC STYLING
+   ============================================================================ */
+
+/* Enhanced glassmorphism for cinematic SOC look */
+.glass-effect-light {
+  background-color: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(100, 116, 139, 0.3);
+}
+
+.glass-effect-medium {
+  background-color: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(71, 85, 105, 0.4);
+}
+
+.glass-effect-dark {
+  background-color: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+}
+
+/* Cinematic hover effect with elevation */
+@keyframes card-hover-glow {
+  from {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+  to {
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2), 0 0 20px rgba(59, 130, 246, 0.1);
+    transform: translateY(-4px);
+  }
+}
+
+.card-hover-effect {
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover-effect:hover {
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2), 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
+/* ============================================================================
+   ATTACK SIMULATION ANIMATIONS
+   ============================================================================ */
+
+/* Pulsing red glow for attacked nodes on network graph */
+@keyframes attack-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 10px rgba(239, 68, 68, 0.6),
+      0 0 20px rgba(239, 68, 68, 0.3),
+      inset 0 0 10px rgba(239, 68, 68, 0.2);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow:
+      0 0 30px rgba(239, 68, 68, 1),
+      0 0 50px rgba(239, 68, 68, 0.7),
+      inset 0 0 15px rgba(239, 68, 68, 0.3);
+    transform: scale(1.12);
+  }
+}
+
+/* Animation for metric cards when under attack */
+@keyframes metric-spike {
+  0% {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1.1;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+/* Pulsing border for threat alert notification */
+@keyframes threat-alert-pulse {
+  0%, 100% {
+    border-left-width: 4px;
+    box-shadow: 0 0 0 rgba(239, 68, 68, 0.4);
+  }
+  50% {
+    border-left-width: 6px;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6);
+  }
+}
+
+/* Utility classes for attack animations */
+.attack-pulse {
+  animation: attack-pulse 2s ease-in-out infinite;
+}
+
+.metric-spike {
+  animation: metric-spike 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.threat-alert {
+  animation: threat-alert-pulse 1.5s ease-in-out infinite;
+}
