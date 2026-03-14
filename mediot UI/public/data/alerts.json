@@ -1,0 +1,2307 @@
+[
+  {
+    "id": "TC001",
+    "timestamp": "2026-03-14T00:35:34.622865",
+    "deviceId": "TC001",
+    "deviceName": "Test Case (TC001)",
+    "severity": "Warning",
+    "trustScore": 77.15,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 68.11,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC002",
+    "timestamp": "2026-03-14T00:35:34.622993",
+    "deviceId": "TC002",
+    "deviceName": "Test Case (TC002)",
+    "severity": "Warning",
+    "trustScore": 77.21,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 68.28,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC003",
+    "timestamp": "2026-03-14T00:35:34.623100",
+    "deviceId": "TC003",
+    "deviceName": "Test Case (TC003)",
+    "severity": "Warning",
+    "trustScore": 77.86,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.89,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC004",
+    "timestamp": "2026-03-14T00:35:34.623200",
+    "deviceId": "TC004",
+    "deviceName": "Test Case (TC004)",
+    "severity": "Warning",
+    "trustScore": 77.94,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.09,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC005",
+    "timestamp": "2026-03-14T00:35:34.623298",
+    "deviceId": "TC005",
+    "deviceName": "Test Case (TC005)",
+    "severity": "Warning",
+    "trustScore": 76.74,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.11,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC006",
+    "timestamp": "2026-03-14T00:35:34.623396",
+    "deviceId": "TC006",
+    "deviceName": "Test Case (TC006)",
+    "severity": "Warning",
+    "trustScore": 78.47,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 71.4,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC007",
+    "timestamp": "2026-03-14T00:35:34.623492",
+    "deviceId": "TC007",
+    "deviceName": "Test Case (TC007)",
+    "severity": "Warning",
+    "trustScore": 76.96,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.64,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC008",
+    "timestamp": "2026-03-14T00:35:34.623594",
+    "deviceId": "TC008",
+    "deviceName": "Test Case (TC008)",
+    "severity": "Warning",
+    "trustScore": 78.87,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 72.41,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC009",
+    "timestamp": "2026-03-14T00:35:34.623707",
+    "deviceId": "TC009",
+    "deviceName": "Test Case (TC009)",
+    "severity": "Warning",
+    "trustScore": 78.35,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 71.11,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC010",
+    "timestamp": "2026-03-14T00:35:34.623805",
+    "deviceId": "TC010",
+    "deviceName": "Test Case (TC010)",
+    "severity": "Warning",
+    "trustScore": 77.04,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.87,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC011",
+    "timestamp": "2026-03-14T00:35:34.623904",
+    "deviceId": "TC011",
+    "deviceName": "Test Case (TC011)",
+    "severity": "Warning",
+    "trustScore": 78.02,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.29,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC012",
+    "timestamp": "2026-03-14T00:35:34.624003",
+    "deviceId": "TC012",
+    "deviceName": "Test Case (TC012)",
+    "severity": "Warning",
+    "trustScore": 78.24,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.85,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC013",
+    "timestamp": "2026-03-14T00:35:34.624103",
+    "deviceId": "TC013",
+    "deviceName": "Test Case (TC013)",
+    "severity": "Warning",
+    "trustScore": 77.1,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.98,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC014",
+    "timestamp": "2026-03-14T00:35:34.624203",
+    "deviceId": "TC014",
+    "deviceName": "Test Case (TC014)",
+    "severity": "Warning",
+    "trustScore": 78.65,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 71.86,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC015",
+    "timestamp": "2026-03-14T00:35:34.624301",
+    "deviceId": "TC015",
+    "deviceName": "Test Case (TC015)",
+    "severity": "Warning",
+    "trustScore": 77.91,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.01,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC016",
+    "timestamp": "2026-03-14T00:35:34.624399",
+    "deviceId": "TC016",
+    "deviceName": "Test Case (TC016)",
+    "severity": "Warning",
+    "trustScore": 78.78,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 72.2,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC017",
+    "timestamp": "2026-03-14T00:35:34.624497",
+    "deviceId": "TC017",
+    "deviceName": "Test Case (TC017)",
+    "severity": "Warning",
+    "trustScore": 77.11,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 68.01,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC018",
+    "timestamp": "2026-03-14T00:35:34.624595",
+    "deviceId": "TC018",
+    "deviceName": "Test Case (TC018)",
+    "severity": "Warning",
+    "trustScore": 79.31,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 73.51,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC019",
+    "timestamp": "2026-03-14T00:35:34.624692",
+    "deviceId": "TC019",
+    "deviceName": "Test Case (TC019)",
+    "severity": "Warning",
+    "trustScore": 78.53,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 71.56,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC020",
+    "timestamp": "2026-03-14T00:35:34.624790",
+    "deviceId": "TC020",
+    "deviceName": "Test Case (TC020)",
+    "severity": "Warning",
+    "trustScore": 77.51,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.03,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC021",
+    "timestamp": "2026-03-14T00:35:34.624889",
+    "deviceId": "TC021",
+    "deviceName": "Test Case (TC021)",
+    "severity": "Warning",
+    "trustScore": 77.36,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 68.66,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC022",
+    "timestamp": "2026-03-14T00:35:34.624991",
+    "deviceId": "TC022",
+    "deviceName": "Test Case (TC022)",
+    "severity": "Warning",
+    "trustScore": 77.5,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 68.98,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC023",
+    "timestamp": "2026-03-14T00:35:34.625092",
+    "deviceId": "TC023",
+    "deviceName": "Test Case (TC023)",
+    "severity": "Warning",
+    "trustScore": 76.43,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.32,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC024",
+    "timestamp": "2026-03-14T00:35:34.625208",
+    "deviceId": "TC024",
+    "deviceName": "Test Case (TC024)",
+    "severity": "Warning",
+    "trustScore": 77.08,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.93,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC025",
+    "timestamp": "2026-03-14T00:35:34.625310",
+    "deviceId": "TC025",
+    "deviceName": "Test Case (TC025)",
+    "severity": "Warning",
+    "trustScore": 76.67,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.93,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC026",
+    "timestamp": "2026-03-14T00:35:34.625411",
+    "deviceId": "TC026",
+    "deviceName": "Test Case (TC026)",
+    "severity": "Warning",
+    "trustScore": 77.45,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 68.89,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC027",
+    "timestamp": "2026-03-14T00:35:34.625511",
+    "deviceId": "TC027",
+    "deviceName": "Test Case (TC027)",
+    "severity": "Warning",
+    "trustScore": 77.81,
+    "alertReason": "Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.76,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC028",
+    "timestamp": "2026-03-14T00:35:34.625611",
+    "deviceId": "TC028",
+    "deviceName": "Test Case (TC028)",
+    "severity": "Warning",
+    "trustScore": 77.1,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.98,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC029",
+    "timestamp": "2026-03-14T00:35:34.625713",
+    "deviceId": "TC029",
+    "deviceName": "Test Case (TC029)",
+    "severity": "Warning",
+    "trustScore": 76.37,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.19,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC030",
+    "timestamp": "2026-03-14T00:35:34.625812",
+    "deviceId": "TC030",
+    "deviceName": "Test Case (TC030)",
+    "severity": "Warning",
+    "trustScore": 76.8,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Normal IoT communication \u2014 Expected: Normal",
+    "recommendedAction": "Investigate Normal IoT communication behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.26,
+      "xgb_score": 99.8,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC031",
+    "timestamp": "2026-03-14T00:35:34.625907",
+    "deviceId": "TC031",
+    "deviceName": "Test Case (TC031)",
+    "severity": "Warning",
+    "trustScore": 71.45,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.96,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC032",
+    "timestamp": "2026-03-14T00:35:34.626005",
+    "deviceId": "TC032",
+    "deviceName": "Test Case (TC032)",
+    "severity": "Warning",
+    "trustScore": 65.82,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 49.15,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC033",
+    "timestamp": "2026-03-14T00:35:34.626103",
+    "deviceId": "TC033",
+    "deviceName": "Test Case (TC033)",
+    "severity": "Warning",
+    "trustScore": 64.95,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.56,
+      "xgb_score": 91.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC034",
+    "timestamp": "2026-03-14T00:35:34.626207",
+    "deviceId": "TC034",
+    "deviceName": "Test Case (TC034)",
+    "severity": "Warning",
+    "trustScore": 64.96,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.0,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC035",
+    "timestamp": "2026-03-14T00:35:34.626313",
+    "deviceId": "TC035",
+    "deviceName": "Test Case (TC035)",
+    "severity": "Warning",
+    "trustScore": 64.42,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 45.65,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC036",
+    "timestamp": "2026-03-14T00:35:34.626414",
+    "deviceId": "TC036",
+    "deviceName": "Test Case (TC036)",
+    "severity": "Warning",
+    "trustScore": 72.64,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.95,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC037",
+    "timestamp": "2026-03-14T00:35:34.626514",
+    "deviceId": "TC037",
+    "deviceName": "Test Case (TC037)",
+    "severity": "Warning",
+    "trustScore": 71.53,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 54.16,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC038",
+    "timestamp": "2026-03-14T00:35:34.626615",
+    "deviceId": "TC038",
+    "deviceName": "Test Case (TC038)",
+    "severity": "Warning",
+    "trustScore": 65.26,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.75,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC039",
+    "timestamp": "2026-03-14T00:35:34.626717",
+    "deviceId": "TC039",
+    "deviceName": "Test Case (TC039)",
+    "severity": "Warning",
+    "trustScore": 71.37,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.77,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC040",
+    "timestamp": "2026-03-14T00:35:34.626818",
+    "deviceId": "TC040",
+    "deviceName": "Test Case (TC040)",
+    "severity": "Warning",
+    "trustScore": 63.7,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 43.86,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC041",
+    "timestamp": "2026-03-14T00:35:34.626932",
+    "deviceId": "TC041",
+    "deviceName": "Test Case (TC041)",
+    "severity": "Warning",
+    "trustScore": 71.07,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.0,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC042",
+    "timestamp": "2026-03-14T00:35:34.627054",
+    "deviceId": "TC042",
+    "deviceName": "Test Case (TC042)",
+    "severity": "Warning",
+    "trustScore": 70.06,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 54.95,
+      "xgb_score": 96.16,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC043",
+    "timestamp": "2026-03-14T00:35:34.627164",
+    "deviceId": "TC043",
+    "deviceName": "Test Case (TC043)",
+    "severity": "Warning",
+    "trustScore": 65.93,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 50.0,
+      "xgb_score": 91.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC044",
+    "timestamp": "2026-03-14T00:35:34.627306",
+    "deviceId": "TC044",
+    "deviceName": "Test Case (TC044)",
+    "severity": "Warning",
+    "trustScore": 69.08,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 52.51,
+      "xgb_score": 96.16,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC045",
+    "timestamp": "2026-03-14T00:35:34.627437",
+    "deviceId": "TC045",
+    "deviceName": "Test Case (TC045)",
+    "severity": "Warning",
+    "trustScore": 65.47,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 48.27,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC046",
+    "timestamp": "2026-03-14T00:35:34.627604",
+    "deviceId": "TC046",
+    "deviceName": "Test Case (TC046)",
+    "severity": "Warning",
+    "trustScore": 65.79,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 49.09,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC047",
+    "timestamp": "2026-03-14T00:35:34.627751",
+    "deviceId": "TC047",
+    "deviceName": "Test Case (TC047)",
+    "severity": "Warning",
+    "trustScore": 64.17,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 45.02,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC048",
+    "timestamp": "2026-03-14T00:35:34.627868",
+    "deviceId": "TC048",
+    "deviceName": "Test Case (TC048)",
+    "severity": "Warning",
+    "trustScore": 71.33,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.67,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC049",
+    "timestamp": "2026-03-14T00:35:34.627978",
+    "deviceId": "TC049",
+    "deviceName": "Test Case (TC049)",
+    "severity": "Warning",
+    "trustScore": 65.2,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 48.18,
+      "xgb_score": 91.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC050",
+    "timestamp": "2026-03-14T00:35:34.628088",
+    "deviceId": "TC050",
+    "deviceName": "Test Case (TC050)",
+    "severity": "Warning",
+    "trustScore": 65.26,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.75,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC051",
+    "timestamp": "2026-03-14T00:35:34.628194",
+    "deviceId": "TC051",
+    "deviceName": "Test Case (TC051)",
+    "severity": "Warning",
+    "trustScore": 65.32,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.9,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC052",
+    "timestamp": "2026-03-14T00:35:34.628297",
+    "deviceId": "TC052",
+    "deviceName": "Test Case (TC052)",
+    "severity": "Warning",
+    "trustScore": 69.63,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 49.42,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC053",
+    "timestamp": "2026-03-14T00:35:34.628414",
+    "deviceId": "TC053",
+    "deviceName": "Test Case (TC053)",
+    "severity": "Warning",
+    "trustScore": 65.2,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 48.18,
+      "xgb_score": 91.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC054",
+    "timestamp": "2026-03-14T00:35:34.628531",
+    "deviceId": "TC054",
+    "deviceName": "Test Case (TC054)",
+    "severity": "Warning",
+    "trustScore": 65.37,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 48.62,
+      "xgb_score": 91.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC055",
+    "timestamp": "2026-03-14T00:35:34.628639",
+    "deviceId": "TC055",
+    "deviceName": "Test Case (TC055)",
+    "severity": "Warning",
+    "trustScore": 72.27,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.01,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC056",
+    "timestamp": "2026-03-14T00:35:34.628752",
+    "deviceId": "TC056",
+    "deviceName": "Test Case (TC056)",
+    "severity": "Warning",
+    "trustScore": 66.21,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 50.72,
+      "xgb_score": 91.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC057",
+    "timestamp": "2026-03-14T00:35:34.628858",
+    "deviceId": "TC057",
+    "deviceName": "Test Case (TC057)",
+    "severity": "Warning",
+    "trustScore": 65.26,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.75,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC058",
+    "timestamp": "2026-03-14T00:35:34.628961",
+    "deviceId": "TC058",
+    "deviceName": "Test Case (TC058)",
+    "severity": "Warning",
+    "trustScore": 65.26,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.75,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC059",
+    "timestamp": "2026-03-14T00:35:34.629071",
+    "deviceId": "TC059",
+    "deviceName": "Test Case (TC059)",
+    "severity": "Warning",
+    "trustScore": 72.46,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.48,
+      "xgb_score": 99.73,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC060",
+    "timestamp": "2026-03-14T00:35:34.629172",
+    "deviceId": "TC060",
+    "deviceName": "Test Case (TC060)",
+    "severity": "Warning",
+    "trustScore": 65.26,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: DoS packet flood \u2014 Expected: Anomaly",
+    "recommendedAction": "Investigate DoS packet flood behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 47.75,
+      "xgb_score": 92.32,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC062",
+    "timestamp": "2026-03-14T00:35:34.629271",
+    "deviceId": "TC062",
+    "deviceName": "Test Case (TC062)",
+    "severity": "Warning",
+    "trustScore": 78.21,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.73,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC063",
+    "timestamp": "2026-03-14T00:35:34.629371",
+    "deviceId": "TC063",
+    "deviceName": "Test Case (TC063)",
+    "severity": "Warning",
+    "trustScore": 79.85,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 74.81,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC064",
+    "timestamp": "2026-03-14T00:35:34.629471",
+    "deviceId": "TC064",
+    "deviceName": "Test Case (TC064)",
+    "severity": "Warning",
+    "trustScore": 78.08,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.4,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC065",
+    "timestamp": "2026-03-14T00:35:34.629570",
+    "deviceId": "TC065",
+    "deviceName": "Test Case (TC065)",
+    "severity": "Warning",
+    "trustScore": 77.5,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 68.95,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC066",
+    "timestamp": "2026-03-14T00:35:34.629670",
+    "deviceId": "TC066",
+    "deviceName": "Test Case (TC066)",
+    "severity": "Warning",
+    "trustScore": 76.81,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.23,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC067",
+    "timestamp": "2026-03-14T00:35:34.629773",
+    "deviceId": "TC067",
+    "deviceName": "Test Case (TC067)",
+    "severity": "Warning",
+    "trustScore": 74.5,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 61.5,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC068",
+    "timestamp": "2026-03-14T00:35:34.629870",
+    "deviceId": "TC068",
+    "deviceName": "Test Case (TC068)",
+    "severity": "Warning",
+    "trustScore": 79.18,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 73.15,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC069",
+    "timestamp": "2026-03-14T00:35:34.629969",
+    "deviceId": "TC069",
+    "deviceName": "Test Case (TC069)",
+    "severity": "Warning",
+    "trustScore": 77.45,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 68.81,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC070",
+    "timestamp": "2026-03-14T00:35:34.630067",
+    "deviceId": "TC070",
+    "deviceName": "Test Case (TC070)",
+    "severity": "Warning",
+    "trustScore": 78.64,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 71.79,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC071",
+    "timestamp": "2026-03-14T00:35:34.630165",
+    "deviceId": "TC071",
+    "deviceName": "Test Case (TC071)",
+    "severity": "Warning",
+    "trustScore": 77.69,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.41,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC072",
+    "timestamp": "2026-03-14T00:35:34.630263",
+    "deviceId": "TC072",
+    "deviceName": "Test Case (TC072)",
+    "severity": "Warning",
+    "trustScore": 78.45,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 71.33,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC073",
+    "timestamp": "2026-03-14T00:35:34.630362",
+    "deviceId": "TC073",
+    "deviceName": "Test Case (TC073)",
+    "severity": "Warning",
+    "trustScore": 79.44,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 73.79,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC074",
+    "timestamp": "2026-03-14T00:35:34.630458",
+    "deviceId": "TC074",
+    "deviceName": "Test Case (TC074)",
+    "severity": "Warning",
+    "trustScore": 77.73,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.52,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC075",
+    "timestamp": "2026-03-14T00:35:34.630556",
+    "deviceId": "TC075",
+    "deviceName": "Test Case (TC075)",
+    "severity": "Warning",
+    "trustScore": 77.6,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.2,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC076",
+    "timestamp": "2026-03-14T00:35:34.630662",
+    "deviceId": "TC076",
+    "deviceName": "Test Case (TC076)",
+    "severity": "Warning",
+    "trustScore": 78.26,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.84,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC077",
+    "timestamp": "2026-03-14T00:35:34.630767",
+    "deviceId": "TC077",
+    "deviceName": "Test Case (TC077)",
+    "severity": "Warning",
+    "trustScore": 78.27,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.85,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC078",
+    "timestamp": "2026-03-14T00:35:34.630865",
+    "deviceId": "TC078",
+    "deviceName": "Test Case (TC078)",
+    "severity": "Warning",
+    "trustScore": 77.96,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.1,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC079",
+    "timestamp": "2026-03-14T00:35:34.630965",
+    "deviceId": "TC079",
+    "deviceName": "Test Case (TC079)",
+    "severity": "Warning",
+    "trustScore": 77.6,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.2,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC080",
+    "timestamp": "2026-03-14T00:35:34.631062",
+    "deviceId": "TC080",
+    "deviceName": "Test Case (TC080)",
+    "severity": "Warning",
+    "trustScore": 76.38,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.16,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC081",
+    "timestamp": "2026-03-14T00:35:34.631162",
+    "deviceId": "TC081",
+    "deviceName": "Test Case (TC081)",
+    "severity": "Warning",
+    "trustScore": 76.46,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.37,
+      "xgb_score": 99.82,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC082",
+    "timestamp": "2026-03-14T00:35:34.631260",
+    "deviceId": "TC082",
+    "deviceName": "Test Case (TC082)",
+    "severity": "Warning",
+    "trustScore": 76.78,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.15,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC083",
+    "timestamp": "2026-03-14T00:35:34.631359",
+    "deviceId": "TC083",
+    "deviceName": "Test Case (TC083)",
+    "severity": "Warning",
+    "trustScore": 77.83,
+    "alertReason": "Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 69.78,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC084",
+    "timestamp": "2026-03-14T00:35:34.631456",
+    "deviceId": "TC084",
+    "deviceName": "Test Case (TC084)",
+    "severity": "Warning",
+    "trustScore": 76.81,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Data exfiltration \u2014 Expected: High risk",
+    "recommendedAction": "Investigate Data exfiltration behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.2,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC106",
+    "timestamp": "2026-03-14T00:35:34.631556",
+    "deviceId": "TC106",
+    "deviceName": "Test Case (TC106)",
+    "severity": "Warning",
+    "trustScore": 78.04,
+    "alertReason": "Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [],
+    "metrics": {
+      "if_score": 70.34,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC107",
+    "timestamp": "2026-03-14T00:35:34.631657",
+    "deviceId": "TC107",
+    "deviceName": "Test Case (TC107)",
+    "severity": "Warning",
+    "trustScore": 76.2,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 65.74,
+      "xgb_score": 99.81,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC108",
+    "timestamp": "2026-03-14T00:35:34.631758",
+    "deviceId": "TC108",
+    "deviceName": "Test Case (TC108)",
+    "severity": "Warning",
+    "trustScore": 75.97,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 65.13,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC109",
+    "timestamp": "2026-03-14T00:35:34.631859",
+    "deviceId": "TC109",
+    "deviceName": "Test Case (TC109)",
+    "severity": "Warning",
+    "trustScore": 75.02,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 62.74,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC110",
+    "timestamp": "2026-03-14T00:35:34.631959",
+    "deviceId": "TC110",
+    "deviceName": "Test Case (TC110)",
+    "severity": "Warning",
+    "trustScore": 75.74,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 64.55,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC111",
+    "timestamp": "2026-03-14T00:35:34.632062",
+    "deviceId": "TC111",
+    "deviceName": "Test Case (TC111)",
+    "severity": "Warning",
+    "trustScore": 76.35,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.06,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC112",
+    "timestamp": "2026-03-14T00:35:34.632164",
+    "deviceId": "TC112",
+    "deviceName": "Test Case (TC112)",
+    "severity": "Warning",
+    "trustScore": 74.31,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 61.0,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC113",
+    "timestamp": "2026-03-14T00:35:34.632264",
+    "deviceId": "TC113",
+    "deviceName": "Test Case (TC113)",
+    "severity": "Warning",
+    "trustScore": 75.28,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 63.4,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC114",
+    "timestamp": "2026-03-14T00:35:34.632363",
+    "deviceId": "TC114",
+    "deviceName": "Test Case (TC114)",
+    "severity": "Warning",
+    "trustScore": 76.69,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 66.92,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC115",
+    "timestamp": "2026-03-14T00:35:34.632463",
+    "deviceId": "TC115",
+    "deviceName": "Test Case (TC115)",
+    "severity": "Warning",
+    "trustScore": 76.72,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 67.01,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC116",
+    "timestamp": "2026-03-14T00:35:34.632566",
+    "deviceId": "TC116",
+    "deviceName": "Test Case (TC116)",
+    "severity": "Warning",
+    "trustScore": 73.83,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 59.78,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC117",
+    "timestamp": "2026-03-14T00:35:34.632671",
+    "deviceId": "TC117",
+    "deviceName": "Test Case (TC117)",
+    "severity": "Warning",
+    "trustScore": 71.16,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.11,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC118",
+    "timestamp": "2026-03-14T00:35:34.632775",
+    "deviceId": "TC118",
+    "deviceName": "Test Case (TC118)",
+    "severity": "Warning",
+    "trustScore": 73.69,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 59.43,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC119",
+    "timestamp": "2026-03-14T00:35:34.632876",
+    "deviceId": "TC119",
+    "deviceName": "Test Case (TC119)",
+    "severity": "Warning",
+    "trustScore": 71.91,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 54.97,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC120",
+    "timestamp": "2026-03-14T00:35:34.632977",
+    "deviceId": "TC120",
+    "deviceName": "Test Case (TC120)",
+    "severity": "Warning",
+    "trustScore": 75.73,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 64.53,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC121",
+    "timestamp": "2026-03-14T00:35:34.633081",
+    "deviceId": "TC121",
+    "deviceName": "Test Case (TC121)",
+    "severity": "Warning",
+    "trustScore": 71.69,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 54.42,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC122",
+    "timestamp": "2026-03-14T00:35:34.633179",
+    "deviceId": "TC122",
+    "deviceName": "Test Case (TC122)",
+    "severity": "Warning",
+    "trustScore": 69.73,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 49.52,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC123",
+    "timestamp": "2026-03-14T00:35:34.633279",
+    "deviceId": "TC123",
+    "deviceName": "Test Case (TC123)",
+    "severity": "Warning",
+    "trustScore": 73.34,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 58.53,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC124",
+    "timestamp": "2026-03-14T00:35:34.633378",
+    "deviceId": "TC124",
+    "deviceName": "Test Case (TC124)",
+    "severity": "Warning",
+    "trustScore": 70.62,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 51.76,
+      "xgb_score": 99.84,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC125",
+    "timestamp": "2026-03-14T00:35:34.633477",
+    "deviceId": "TC125",
+    "deviceName": "Test Case (TC125)",
+    "severity": "Warning",
+    "trustScore": 70.44,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Gradual traffic drift \u2014 Expected: Drift alert",
+    "recommendedAction": "Investigate Gradual traffic drift behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 51.3,
+      "xgb_score": 99.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC126",
+    "timestamp": "2026-03-14T00:35:34.633575",
+    "deviceId": "TC126",
+    "deviceName": "Test Case (TC126)",
+    "severity": "Warning",
+    "trustScore": 67.11,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.71,
+      "xgb_score": 88.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC127",
+    "timestamp": "2026-03-14T00:35:34.633674",
+    "deviceId": "TC127",
+    "deviceName": "Test Case (TC127)",
+    "severity": "Warning",
+    "trustScore": 67.11,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.71,
+      "xgb_score": 88.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC128",
+    "timestamp": "2026-03-14T00:35:34.633779",
+    "deviceId": "TC128",
+    "deviceName": "Test Case (TC128)",
+    "severity": "Critical",
+    "trustScore": 49.08,
+    "alertReason": "Isolation Forest detected anomaly; Low trust score: 49.1; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 0.0,
+      "xgb_score": 98.17,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC129",
+    "timestamp": "2026-03-14T00:35:34.633880",
+    "deviceId": "TC129",
+    "deviceName": "Test Case (TC129)",
+    "severity": "Warning",
+    "trustScore": 62.6,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 33.09,
+      "xgb_score": 98.72,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC130",
+    "timestamp": "2026-03-14T00:35:34.633983",
+    "deviceId": "TC130",
+    "deviceName": "Test Case (TC130)",
+    "severity": "Warning",
+    "trustScore": 51.13,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 21.5,
+      "xgb_score": 85.06,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC131",
+    "timestamp": "2026-03-14T00:35:34.634086",
+    "deviceId": "TC131",
+    "deviceName": "Test Case (TC131)",
+    "severity": "Warning",
+    "trustScore": 62.6,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 33.09,
+      "xgb_score": 98.72,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC133",
+    "timestamp": "2026-03-14T00:35:34.634188",
+    "deviceId": "TC133",
+    "deviceName": "Test Case (TC133)",
+    "severity": "Warning",
+    "trustScore": 62.36,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 32.66,
+      "xgb_score": 98.6,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC134",
+    "timestamp": "2026-03-14T00:35:34.634297",
+    "deviceId": "TC134",
+    "deviceName": "Test Case (TC134)",
+    "severity": "Critical",
+    "trustScore": 49.08,
+    "alertReason": "Isolation Forest detected anomaly; Low trust score: 49.1; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 0.0,
+      "xgb_score": 98.17,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC135",
+    "timestamp": "2026-03-14T00:35:34.634398",
+    "deviceId": "TC135",
+    "deviceName": "Test Case (TC135)",
+    "severity": "Warning",
+    "trustScore": 62.6,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 33.09,
+      "xgb_score": 98.72,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC136",
+    "timestamp": "2026-03-14T00:35:34.634499",
+    "deviceId": "TC136",
+    "deviceName": "Test Case (TC136)",
+    "severity": "Warning",
+    "trustScore": 67.11,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.71,
+      "xgb_score": 88.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC137",
+    "timestamp": "2026-03-14T00:35:34.634596",
+    "deviceId": "TC137",
+    "deviceName": "Test Case (TC137)",
+    "severity": "Warning",
+    "trustScore": 62.36,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 32.66,
+      "xgb_score": 98.6,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC139",
+    "timestamp": "2026-03-14T00:35:34.634694",
+    "deviceId": "TC139",
+    "deviceName": "Test Case (TC139)",
+    "severity": "Warning",
+    "trustScore": 67.11,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Boundary extreme \u2014 Expected: System stable",
+    "recommendedAction": "Investigate Boundary extreme behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 56.71,
+      "xgb_score": 88.85,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC141",
+    "timestamp": "2026-03-14T00:35:34.634794",
+    "deviceId": "TC141",
+    "deviceName": "Test Case (TC141)",
+    "severity": "Warning",
+    "trustScore": 71.15,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.11,
+      "xgb_score": 99.82,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC142",
+    "timestamp": "2026-03-14T00:35:34.634899",
+    "deviceId": "TC142",
+    "deviceName": "Test Case (TC142)",
+    "severity": "Warning",
+    "trustScore": 74.22,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 60.78,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC143",
+    "timestamp": "2026-03-14T00:35:34.635025",
+    "deviceId": "TC143",
+    "deviceName": "Test Case (TC143)",
+    "severity": "Warning",
+    "trustScore": 73.0,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 57.72,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC144",
+    "timestamp": "2026-03-14T00:35:34.635174",
+    "deviceId": "TC144",
+    "deviceName": "Test Case (TC144)",
+    "severity": "Warning",
+    "trustScore": 71.05,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 52.85,
+      "xgb_score": 99.82,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC145",
+    "timestamp": "2026-03-14T00:35:34.635293",
+    "deviceId": "TC145",
+    "deviceName": "Test Case (TC145)",
+    "severity": "Warning",
+    "trustScore": 74.18,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 60.67,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC146",
+    "timestamp": "2026-03-14T00:35:34.635409",
+    "deviceId": "TC146",
+    "deviceName": "Test Case (TC146)",
+    "severity": "Warning",
+    "trustScore": 73.58,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 59.18,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC147",
+    "timestamp": "2026-03-14T00:35:34.635518",
+    "deviceId": "TC147",
+    "deviceName": "Test Case (TC147)",
+    "severity": "Warning",
+    "trustScore": 74.16,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 60.63,
+      "xgb_score": 99.82,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC148",
+    "timestamp": "2026-03-14T00:35:34.635624",
+    "deviceId": "TC148",
+    "deviceName": "Test Case (TC148)",
+    "severity": "Warning",
+    "trustScore": 72.81,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 57.25,
+      "xgb_score": 99.82,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC149",
+    "timestamp": "2026-03-14T00:35:34.635731",
+    "deviceId": "TC149",
+    "deviceName": "Test Case (TC149)",
+    "severity": "Warning",
+    "trustScore": 71.37,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 53.65,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  },
+  {
+    "id": "TC150",
+    "timestamp": "2026-03-14T00:35:34.635839",
+    "deviceId": "TC150",
+    "deviceName": "Test Case (TC150)",
+    "severity": "Warning",
+    "trustScore": 74.47,
+    "alertReason": "Isolation Forest detected anomaly; Scenario: Adversarial balanced traffic \u2014 Expected: Model challenge",
+    "recommendedAction": "Investigate Adversarial balanced traffic behavior. Pipeline prediction: Benign",
+    "flaggedBy": [
+      "IsolationForest"
+    ],
+    "metrics": {
+      "if_score": 61.39,
+      "xgb_score": 99.83,
+      "cusum_shift": null
+    },
+    "deviatingFeatures": []
+  }
+]

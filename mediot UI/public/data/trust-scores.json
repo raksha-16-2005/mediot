@@ -1,0 +1,1502 @@
+[
+  {
+    "deviceId": "TC001",
+    "sourceIp": "TC001",
+    "trustScore": 77.15,
+    "status": "Suspicious",
+    "ifScore": 68.11,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC002",
+    "sourceIp": "TC002",
+    "trustScore": 77.21,
+    "status": "Suspicious",
+    "ifScore": 68.28,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC003",
+    "sourceIp": "TC003",
+    "trustScore": 77.86,
+    "status": "Suspicious",
+    "ifScore": 69.89,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC004",
+    "sourceIp": "TC004",
+    "trustScore": 77.94,
+    "status": "Suspicious",
+    "ifScore": 70.09,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC005",
+    "sourceIp": "TC005",
+    "trustScore": 76.74,
+    "status": "Suspicious",
+    "ifScore": 67.11,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC006",
+    "sourceIp": "TC006",
+    "trustScore": 78.47,
+    "status": "Suspicious",
+    "ifScore": 71.4,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC007",
+    "sourceIp": "TC007",
+    "trustScore": 76.96,
+    "status": "Suspicious",
+    "ifScore": 67.64,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC008",
+    "sourceIp": "TC008",
+    "trustScore": 78.87,
+    "status": "Suspicious",
+    "ifScore": 72.41,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC009",
+    "sourceIp": "TC009",
+    "trustScore": 78.35,
+    "status": "Suspicious",
+    "ifScore": 71.11,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC010",
+    "sourceIp": "TC010",
+    "trustScore": 77.04,
+    "status": "Suspicious",
+    "ifScore": 67.87,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC011",
+    "sourceIp": "TC011",
+    "trustScore": 78.02,
+    "status": "Suspicious",
+    "ifScore": 70.29,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC012",
+    "sourceIp": "TC012",
+    "trustScore": 78.24,
+    "status": "Suspicious",
+    "ifScore": 70.85,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC013",
+    "sourceIp": "TC013",
+    "trustScore": 77.1,
+    "status": "Suspicious",
+    "ifScore": 67.98,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC014",
+    "sourceIp": "TC014",
+    "trustScore": 78.65,
+    "status": "Suspicious",
+    "ifScore": 71.86,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC015",
+    "sourceIp": "TC015",
+    "trustScore": 77.91,
+    "status": "Suspicious",
+    "ifScore": 70.01,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC016",
+    "sourceIp": "TC016",
+    "trustScore": 78.78,
+    "status": "Suspicious",
+    "ifScore": 72.2,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC017",
+    "sourceIp": "TC017",
+    "trustScore": 77.11,
+    "status": "Suspicious",
+    "ifScore": 68.01,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC018",
+    "sourceIp": "TC018",
+    "trustScore": 79.31,
+    "status": "Suspicious",
+    "ifScore": 73.51,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC019",
+    "sourceIp": "TC019",
+    "trustScore": 78.53,
+    "status": "Suspicious",
+    "ifScore": 71.56,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC020",
+    "sourceIp": "TC020",
+    "trustScore": 77.51,
+    "status": "Suspicious",
+    "ifScore": 69.03,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC021",
+    "sourceIp": "TC021",
+    "trustScore": 77.36,
+    "status": "Suspicious",
+    "ifScore": 68.66,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC022",
+    "sourceIp": "TC022",
+    "trustScore": 77.5,
+    "status": "Suspicious",
+    "ifScore": 68.98,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC023",
+    "sourceIp": "TC023",
+    "trustScore": 76.43,
+    "status": "Suspicious",
+    "ifScore": 66.32,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC024",
+    "sourceIp": "TC024",
+    "trustScore": 77.08,
+    "status": "Suspicious",
+    "ifScore": 67.93,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC025",
+    "sourceIp": "TC025",
+    "trustScore": 76.67,
+    "status": "Suspicious",
+    "ifScore": 66.93,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC026",
+    "sourceIp": "TC026",
+    "trustScore": 77.45,
+    "status": "Suspicious",
+    "ifScore": 68.89,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC027",
+    "sourceIp": "TC027",
+    "trustScore": 77.81,
+    "status": "Suspicious",
+    "ifScore": 69.76,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC028",
+    "sourceIp": "TC028",
+    "trustScore": 77.1,
+    "status": "Suspicious",
+    "ifScore": 67.98,
+    "xgbScore": 99.81,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC029",
+    "sourceIp": "TC029",
+    "trustScore": 76.37,
+    "status": "Suspicious",
+    "ifScore": 66.19,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC030",
+    "sourceIp": "TC030",
+    "trustScore": 76.8,
+    "status": "Suspicious",
+    "ifScore": 67.26,
+    "xgbScore": 99.8,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC031",
+    "sourceIp": "TC031",
+    "trustScore": 71.45,
+    "status": "Suspicious",
+    "ifScore": 53.96,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC032",
+    "sourceIp": "TC032",
+    "trustScore": 65.82,
+    "status": "Suspicious",
+    "ifScore": 49.15,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC033",
+    "sourceIp": "TC033",
+    "trustScore": 64.95,
+    "status": "Suspicious",
+    "ifScore": 47.56,
+    "xgbScore": 91.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC034",
+    "sourceIp": "TC034",
+    "trustScore": 64.96,
+    "status": "Suspicious",
+    "ifScore": 47.0,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC035",
+    "sourceIp": "TC035",
+    "trustScore": 64.42,
+    "status": "Suspicious",
+    "ifScore": 45.65,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC036",
+    "sourceIp": "TC036",
+    "trustScore": 72.64,
+    "status": "Suspicious",
+    "ifScore": 56.95,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC037",
+    "sourceIp": "TC037",
+    "trustScore": 71.53,
+    "status": "Suspicious",
+    "ifScore": 54.16,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC038",
+    "sourceIp": "TC038",
+    "trustScore": 65.26,
+    "status": "Suspicious",
+    "ifScore": 47.75,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC039",
+    "sourceIp": "TC039",
+    "trustScore": 71.37,
+    "status": "Suspicious",
+    "ifScore": 53.77,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC040",
+    "sourceIp": "TC040",
+    "trustScore": 63.7,
+    "status": "Suspicious",
+    "ifScore": 43.86,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC041",
+    "sourceIp": "TC041",
+    "trustScore": 71.07,
+    "status": "Suspicious",
+    "ifScore": 53.0,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC042",
+    "sourceIp": "TC042",
+    "trustScore": 70.06,
+    "status": "Suspicious",
+    "ifScore": 54.95,
+    "xgbScore": 96.16,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC043",
+    "sourceIp": "TC043",
+    "trustScore": 65.93,
+    "status": "Suspicious",
+    "ifScore": 50.0,
+    "xgbScore": 91.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC044",
+    "sourceIp": "TC044",
+    "trustScore": 69.08,
+    "status": "Suspicious",
+    "ifScore": 52.51,
+    "xgbScore": 96.16,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC045",
+    "sourceIp": "TC045",
+    "trustScore": 65.47,
+    "status": "Suspicious",
+    "ifScore": 48.27,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC046",
+    "sourceIp": "TC046",
+    "trustScore": 65.79,
+    "status": "Suspicious",
+    "ifScore": 49.09,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC047",
+    "sourceIp": "TC047",
+    "trustScore": 64.17,
+    "status": "Suspicious",
+    "ifScore": 45.02,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC048",
+    "sourceIp": "TC048",
+    "trustScore": 71.33,
+    "status": "Suspicious",
+    "ifScore": 53.67,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC049",
+    "sourceIp": "TC049",
+    "trustScore": 65.2,
+    "status": "Suspicious",
+    "ifScore": 48.18,
+    "xgbScore": 91.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC050",
+    "sourceIp": "TC050",
+    "trustScore": 65.26,
+    "status": "Suspicious",
+    "ifScore": 47.75,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC051",
+    "sourceIp": "TC051",
+    "trustScore": 65.32,
+    "status": "Suspicious",
+    "ifScore": 47.9,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC052",
+    "sourceIp": "TC052",
+    "trustScore": 69.63,
+    "status": "Suspicious",
+    "ifScore": 49.42,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC053",
+    "sourceIp": "TC053",
+    "trustScore": 65.2,
+    "status": "Suspicious",
+    "ifScore": 48.18,
+    "xgbScore": 91.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC054",
+    "sourceIp": "TC054",
+    "trustScore": 65.37,
+    "status": "Suspicious",
+    "ifScore": 48.62,
+    "xgbScore": 91.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC055",
+    "sourceIp": "TC055",
+    "trustScore": 72.27,
+    "status": "Suspicious",
+    "ifScore": 56.01,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC056",
+    "sourceIp": "TC056",
+    "trustScore": 66.21,
+    "status": "Suspicious",
+    "ifScore": 50.72,
+    "xgbScore": 91.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC057",
+    "sourceIp": "TC057",
+    "trustScore": 65.26,
+    "status": "Suspicious",
+    "ifScore": 47.75,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC058",
+    "sourceIp": "TC058",
+    "trustScore": 65.26,
+    "status": "Suspicious",
+    "ifScore": 47.75,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC059",
+    "sourceIp": "TC059",
+    "trustScore": 72.46,
+    "status": "Suspicious",
+    "ifScore": 56.48,
+    "xgbScore": 99.73,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC060",
+    "sourceIp": "TC060",
+    "trustScore": 65.26,
+    "status": "Suspicious",
+    "ifScore": 47.75,
+    "xgbScore": 92.32,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC061",
+    "sourceIp": "TC061",
+    "trustScore": 80.63,
+    "status": "Healthy",
+    "ifScore": 76.77,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC062",
+    "sourceIp": "TC062",
+    "trustScore": 78.21,
+    "status": "Suspicious",
+    "ifScore": 70.73,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC063",
+    "sourceIp": "TC063",
+    "trustScore": 79.85,
+    "status": "Suspicious",
+    "ifScore": 74.81,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC064",
+    "sourceIp": "TC064",
+    "trustScore": 78.08,
+    "status": "Suspicious",
+    "ifScore": 70.4,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC065",
+    "sourceIp": "TC065",
+    "trustScore": 77.5,
+    "status": "Suspicious",
+    "ifScore": 68.95,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC066",
+    "sourceIp": "TC066",
+    "trustScore": 76.81,
+    "status": "Suspicious",
+    "ifScore": 67.23,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC067",
+    "sourceIp": "TC067",
+    "trustScore": 74.5,
+    "status": "Suspicious",
+    "ifScore": 61.5,
+    "xgbScore": 99.81,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC068",
+    "sourceIp": "TC068",
+    "trustScore": 79.18,
+    "status": "Suspicious",
+    "ifScore": 73.15,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC069",
+    "sourceIp": "TC069",
+    "trustScore": 77.45,
+    "status": "Suspicious",
+    "ifScore": 68.81,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC070",
+    "sourceIp": "TC070",
+    "trustScore": 78.64,
+    "status": "Suspicious",
+    "ifScore": 71.79,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC071",
+    "sourceIp": "TC071",
+    "trustScore": 77.69,
+    "status": "Suspicious",
+    "ifScore": 69.41,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC072",
+    "sourceIp": "TC072",
+    "trustScore": 78.45,
+    "status": "Suspicious",
+    "ifScore": 71.33,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC073",
+    "sourceIp": "TC073",
+    "trustScore": 79.44,
+    "status": "Suspicious",
+    "ifScore": 73.79,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC074",
+    "sourceIp": "TC074",
+    "trustScore": 77.73,
+    "status": "Suspicious",
+    "ifScore": 69.52,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC075",
+    "sourceIp": "TC075",
+    "trustScore": 77.6,
+    "status": "Suspicious",
+    "ifScore": 69.2,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC076",
+    "sourceIp": "TC076",
+    "trustScore": 78.26,
+    "status": "Suspicious",
+    "ifScore": 70.84,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC077",
+    "sourceIp": "TC077",
+    "trustScore": 78.27,
+    "status": "Suspicious",
+    "ifScore": 70.85,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC078",
+    "sourceIp": "TC078",
+    "trustScore": 77.96,
+    "status": "Suspicious",
+    "ifScore": 70.1,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC079",
+    "sourceIp": "TC079",
+    "trustScore": 77.6,
+    "status": "Suspicious",
+    "ifScore": 69.2,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC080",
+    "sourceIp": "TC080",
+    "trustScore": 76.38,
+    "status": "Suspicious",
+    "ifScore": 66.16,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC081",
+    "sourceIp": "TC081",
+    "trustScore": 76.46,
+    "status": "Suspicious",
+    "ifScore": 66.37,
+    "xgbScore": 99.82,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC082",
+    "sourceIp": "TC082",
+    "trustScore": 76.78,
+    "status": "Suspicious",
+    "ifScore": 67.15,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC083",
+    "sourceIp": "TC083",
+    "trustScore": 77.83,
+    "status": "Suspicious",
+    "ifScore": 69.78,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC084",
+    "sourceIp": "TC084",
+    "trustScore": 76.81,
+    "status": "Suspicious",
+    "ifScore": 67.2,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC085",
+    "sourceIp": "TC085",
+    "trustScore": 80.84,
+    "status": "Healthy",
+    "ifScore": 77.28,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC086",
+    "sourceIp": "TC086",
+    "trustScore": 88.99,
+    "status": "Healthy",
+    "ifScore": 97.93,
+    "xgbScore": 99.65,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC087",
+    "sourceIp": "TC087",
+    "trustScore": 88.86,
+    "status": "Healthy",
+    "ifScore": 97.56,
+    "xgbScore": 99.67,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC088",
+    "sourceIp": "TC088",
+    "trustScore": 88.86,
+    "status": "Healthy",
+    "ifScore": 97.56,
+    "xgbScore": 99.67,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC089",
+    "sourceIp": "TC089",
+    "trustScore": 87.61,
+    "status": "Healthy",
+    "ifScore": 94.43,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC090",
+    "sourceIp": "TC090",
+    "trustScore": 88.93,
+    "status": "Healthy",
+    "ifScore": 97.74,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC091",
+    "sourceIp": "TC091",
+    "trustScore": 88.75,
+    "status": "Healthy",
+    "ifScore": 97.27,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC092",
+    "sourceIp": "TC092",
+    "trustScore": 86.17,
+    "status": "Healthy",
+    "ifScore": 90.82,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC093",
+    "sourceIp": "TC093",
+    "trustScore": 88.55,
+    "status": "Healthy",
+    "ifScore": 96.78,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC094",
+    "sourceIp": "TC094",
+    "trustScore": 89.81,
+    "status": "Healthy",
+    "ifScore": 100.0,
+    "xgbScore": 99.62,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC095",
+    "sourceIp": "TC095",
+    "trustScore": 87.08,
+    "status": "Healthy",
+    "ifScore": 93.09,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC096",
+    "sourceIp": "TC096",
+    "trustScore": 89.08,
+    "status": "Healthy",
+    "ifScore": 98.11,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC097",
+    "sourceIp": "TC097",
+    "trustScore": 85.57,
+    "status": "Healthy",
+    "ifScore": 89.33,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC098",
+    "sourceIp": "TC098",
+    "trustScore": 89.25,
+    "status": "Healthy",
+    "ifScore": 98.59,
+    "xgbScore": 99.62,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC099",
+    "sourceIp": "TC099",
+    "trustScore": 89.26,
+    "status": "Healthy",
+    "ifScore": 98.59,
+    "xgbScore": 99.65,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC100",
+    "sourceIp": "TC100",
+    "trustScore": 87.52,
+    "status": "Healthy",
+    "ifScore": 94.21,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC101",
+    "sourceIp": "TC101",
+    "trustScore": 87.28,
+    "status": "Healthy",
+    "ifScore": 93.59,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC102",
+    "sourceIp": "TC102",
+    "trustScore": 88.98,
+    "status": "Healthy",
+    "ifScore": 97.85,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC103",
+    "sourceIp": "TC103",
+    "trustScore": 88.75,
+    "status": "Healthy",
+    "ifScore": 97.27,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC104",
+    "sourceIp": "TC104",
+    "trustScore": 89.08,
+    "status": "Healthy",
+    "ifScore": 98.11,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC105",
+    "sourceIp": "TC105",
+    "trustScore": 89.08,
+    "status": "Healthy",
+    "ifScore": 98.11,
+    "xgbScore": 99.68,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC106",
+    "sourceIp": "TC106",
+    "trustScore": 78.04,
+    "status": "Suspicious",
+    "ifScore": 70.34,
+    "xgbScore": 99.81,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC107",
+    "sourceIp": "TC107",
+    "trustScore": 76.2,
+    "status": "Suspicious",
+    "ifScore": 65.74,
+    "xgbScore": 99.81,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC108",
+    "sourceIp": "TC108",
+    "trustScore": 75.97,
+    "status": "Suspicious",
+    "ifScore": 65.13,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC109",
+    "sourceIp": "TC109",
+    "trustScore": 75.02,
+    "status": "Suspicious",
+    "ifScore": 62.74,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC110",
+    "sourceIp": "TC110",
+    "trustScore": 75.74,
+    "status": "Suspicious",
+    "ifScore": 64.55,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC111",
+    "sourceIp": "TC111",
+    "trustScore": 76.35,
+    "status": "Suspicious",
+    "ifScore": 66.06,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC112",
+    "sourceIp": "TC112",
+    "trustScore": 74.31,
+    "status": "Suspicious",
+    "ifScore": 61.0,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC113",
+    "sourceIp": "TC113",
+    "trustScore": 75.28,
+    "status": "Suspicious",
+    "ifScore": 63.4,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC114",
+    "sourceIp": "TC114",
+    "trustScore": 76.69,
+    "status": "Suspicious",
+    "ifScore": 66.92,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC115",
+    "sourceIp": "TC115",
+    "trustScore": 76.72,
+    "status": "Suspicious",
+    "ifScore": 67.01,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC116",
+    "sourceIp": "TC116",
+    "trustScore": 73.83,
+    "status": "Suspicious",
+    "ifScore": 59.78,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC117",
+    "sourceIp": "TC117",
+    "trustScore": 71.16,
+    "status": "Suspicious",
+    "ifScore": 53.11,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC118",
+    "sourceIp": "TC118",
+    "trustScore": 73.69,
+    "status": "Suspicious",
+    "ifScore": 59.43,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC119",
+    "sourceIp": "TC119",
+    "trustScore": 71.91,
+    "status": "Suspicious",
+    "ifScore": 54.97,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC120",
+    "sourceIp": "TC120",
+    "trustScore": 75.73,
+    "status": "Suspicious",
+    "ifScore": 64.53,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC121",
+    "sourceIp": "TC121",
+    "trustScore": 71.69,
+    "status": "Suspicious",
+    "ifScore": 54.42,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC122",
+    "sourceIp": "TC122",
+    "trustScore": 69.73,
+    "status": "Suspicious",
+    "ifScore": 49.52,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC123",
+    "sourceIp": "TC123",
+    "trustScore": 73.34,
+    "status": "Suspicious",
+    "ifScore": 58.53,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC124",
+    "sourceIp": "TC124",
+    "trustScore": 70.62,
+    "status": "Suspicious",
+    "ifScore": 51.76,
+    "xgbScore": 99.84,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC125",
+    "sourceIp": "TC125",
+    "trustScore": 70.44,
+    "status": "Suspicious",
+    "ifScore": 51.3,
+    "xgbScore": 99.85,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC126",
+    "sourceIp": "TC126",
+    "trustScore": 67.11,
+    "status": "Suspicious",
+    "ifScore": 56.71,
+    "xgbScore": 88.85,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC127",
+    "sourceIp": "TC127",
+    "trustScore": 67.11,
+    "status": "Suspicious",
+    "ifScore": 56.71,
+    "xgbScore": 88.85,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC128",
+    "sourceIp": "TC128",
+    "trustScore": 49.08,
+    "status": "ALERT",
+    "ifScore": 0.0,
+    "xgbScore": 98.17,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC129",
+    "sourceIp": "TC129",
+    "trustScore": 62.6,
+    "status": "Suspicious",
+    "ifScore": 33.09,
+    "xgbScore": 98.72,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC130",
+    "sourceIp": "TC130",
+    "trustScore": 51.13,
+    "status": "Suspicious",
+    "ifScore": 21.5,
+    "xgbScore": 85.06,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC131",
+    "sourceIp": "TC131",
+    "trustScore": 62.6,
+    "status": "Suspicious",
+    "ifScore": 33.09,
+    "xgbScore": 98.72,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC132",
+    "sourceIp": "TC132",
+    "trustScore": 80.28,
+    "status": "Healthy",
+    "ifScore": 76.84,
+    "xgbScore": 99.09,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC133",
+    "sourceIp": "TC133",
+    "trustScore": 62.36,
+    "status": "Suspicious",
+    "ifScore": 32.66,
+    "xgbScore": 98.6,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC134",
+    "sourceIp": "TC134",
+    "trustScore": 49.08,
+    "status": "ALERT",
+    "ifScore": 0.0,
+    "xgbScore": 98.17,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC135",
+    "sourceIp": "TC135",
+    "trustScore": 62.6,
+    "status": "Suspicious",
+    "ifScore": 33.09,
+    "xgbScore": 98.72,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC136",
+    "sourceIp": "TC136",
+    "trustScore": 67.11,
+    "status": "Suspicious",
+    "ifScore": 56.71,
+    "xgbScore": 88.85,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC137",
+    "sourceIp": "TC137",
+    "trustScore": 62.36,
+    "status": "Suspicious",
+    "ifScore": 32.66,
+    "xgbScore": 98.6,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC138",
+    "sourceIp": "TC138",
+    "trustScore": 80.28,
+    "status": "Healthy",
+    "ifScore": 76.84,
+    "xgbScore": 99.09,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC139",
+    "sourceIp": "TC139",
+    "trustScore": 67.11,
+    "status": "Suspicious",
+    "ifScore": 56.71,
+    "xgbScore": 88.85,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC140",
+    "sourceIp": "TC140",
+    "trustScore": 80.28,
+    "status": "Healthy",
+    "ifScore": 76.84,
+    "xgbScore": 99.09,
+    "label": "Benign",
+    "isMalicious": false
+  },
+  {
+    "deviceId": "TC141",
+    "sourceIp": "TC141",
+    "trustScore": 71.15,
+    "status": "Suspicious",
+    "ifScore": 53.11,
+    "xgbScore": 99.82,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC142",
+    "sourceIp": "TC142",
+    "trustScore": 74.22,
+    "status": "Suspicious",
+    "ifScore": 60.78,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC143",
+    "sourceIp": "TC143",
+    "trustScore": 73.0,
+    "status": "Suspicious",
+    "ifScore": 57.72,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC144",
+    "sourceIp": "TC144",
+    "trustScore": 71.05,
+    "status": "Suspicious",
+    "ifScore": 52.85,
+    "xgbScore": 99.82,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC145",
+    "sourceIp": "TC145",
+    "trustScore": 74.18,
+    "status": "Suspicious",
+    "ifScore": 60.67,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC146",
+    "sourceIp": "TC146",
+    "trustScore": 73.58,
+    "status": "Suspicious",
+    "ifScore": 59.18,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC147",
+    "sourceIp": "TC147",
+    "trustScore": 74.16,
+    "status": "Suspicious",
+    "ifScore": 60.63,
+    "xgbScore": 99.82,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC148",
+    "sourceIp": "TC148",
+    "trustScore": 72.81,
+    "status": "Suspicious",
+    "ifScore": 57.25,
+    "xgbScore": 99.82,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC149",
+    "sourceIp": "TC149",
+    "trustScore": 71.37,
+    "status": "Suspicious",
+    "ifScore": 53.65,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  },
+  {
+    "deviceId": "TC150",
+    "sourceIp": "TC150",
+    "trustScore": 74.47,
+    "status": "Suspicious",
+    "ifScore": 61.39,
+    "xgbScore": 99.83,
+    "label": "Malicious",
+    "isMalicious": true
+  }
+]

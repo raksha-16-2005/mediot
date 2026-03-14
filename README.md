@@ -1,361 +1,217 @@
-# MedIoT Shield - Hospital IoT Security Platform
+# MedIoT Shield — Healthcare IoT Security Monitoring System
 
-Professional real-time security monitoring and threat detection system for hospital IoT networks.
+A real-time security monitoring platform for healthcare IoT networks that detects malicious activity using an ensemble of three ML algorithms, assigns trust scores to devices, and provides a comprehensive Next.js dashboard for visualization and analysis.
 
-## 🎯 Project Overview
-
-MedIoT Shield is a comprehensive Security Operations Center (SOC) dashboard designed to provide real-time monitoring, threat detection, and incident response capabilities for hospital IoT devices. Built with modern web technologies and machine learning, it offers healthcare organizations a powerful tool to protect their critical medical infrastructure.
-
-## ✨ Key Features
-
-### 🏥 Core Capabilities
-- **Real-time Device Monitoring**: Track 50+ hospital IoT devices with live status updates
-- **ML-Based Anomaly Detection**: 92%+ accuracy threat detection using Isolation Forest and K-Means clustering
-- **Multi-Factor Trust Scoring**: Comprehensive device trustworthiness assessment (0-100 scale)
-- **Professional SOC Dashboard**: Enterprise-grade monitoring interface
-- **Incident Response Tools**: Comprehensive investigation and response capabilities
-- **Behavioral Analytics**: Advanced ML-driven security insights
-- **Attack Simulation**: Interactive demo for showcasing system capabilities
-
-### 📊 Dashboards & Visualizations
-1. **Security Dashboard**: Real-time metrics, charts, and alert monitoring
-2. **Device Explorer**: Device inventory with pagination and detail panels
-3. **Alerts Center**: Incident management and response console
-4. **Behavioral Analytics**: ML clustering and feature importance analysis
-5. **System Architecture**: Pipeline explanation for stakeholders
-
-### 🤖 ML Features
-- Device behavior clustering (scatter plot visualization)
-- Feature importance analysis (DNS, Traffic, IPs, Activity)
-- Anomaly score distribution (histogram)
-- Model performance metrics (Accuracy, Precision, Recall, F1)
-- Real-time scoring (<1s inference)
-
-## 🏗️ System Architecture
+## Architecture
 
 ```
-IoT Devices
-    ↓
-Network Telemetry Collection
-    ↓
-Feature Extraction & Normalization
-    ↓
-Anomaly Detection Model (Isolation Forest + K-Means)
-    ↓
-Trust Score Engine (Multi-Factor Scoring)
-    ↓
-Security Dashboard & Incident Response
+┌─────────────────────────────────────────────────────┐
+│                   IoT-23 Dataset                     │
+│        (Zeek conn.log.labeled files)                 │
+└──────────────────────┬──────────────────────────────┘
+                       │
+              ┌────────▼────────┐
+              │  Preprocessing  │
+              │  & Feature Eng  │
+              └────────┬────────┘
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+  ┌───────────┐  ┌──────────┐  ┌──────────┐
+  │ Isolation  │  │ XGBoost  │  │  CUSUM   │
+  │  Forest    │  │Classifier│  │ Change   │
+  │(Anomaly)   │  │(Supervised)│ │ Point    │
+  └─────┬─────┘  └────┬─────┘  └────┬─────┘
+        │              │              │
+        └──────────────┼──────────────┘
+                       │
+              ┌────────▼────────┐
+              │  Trust Score    │
+              │    Engine       │
+              └────────┬────────┘
+                       │
+           ┌───────────┼───────────┐
+           ▼           ▼           ▼
+     ┌──────────┐ ┌─────────┐ ┌─────────────┐
+     │  Alerts  │ │ Attack  │ │  Next.js    │
+     │  Engine  │ │Overview │ │  Dashboard  │
+     └──────────┘ └─────────┘ └─────────────┘
 ```
 
-**Pipeline Components:**
-- **IoT Devices**: Infusion Pumps, Patient Monitors, MRI Controllers, HVAC Systems, Nurse Stations
-- **Telemetry**: Real-time packet capture, DNS logging, traffic analysis
-- **Features**: Normalized metrics for ML processing
-- **Detection**: 92%+ accuracy anomaly detection
-- **Trust Scoring**: Multi-factor device assessment
-- **Response**: Professional SOC tools for security teams
+## ML Pipeline
 
-## 💻 Technology Stack
+### 1. Isolation Forest (Unsupervised Anomaly Detection)
+- Trained on **benign-only** traffic to learn normal behavior
+- `contamination=0.1`, `n_estimators=100`
+- Flags connections that deviate from learned baseline
 
-### Frontend
-- **Next.js 14**: React framework with server components
-- **TypeScript**: Full static type checking
-- **Tailwind CSS**: Responsive utility-first styling
-- **Recharts**: Interactive data visualizations
+### 2. XGBoost Classifier (Supervised Classification)
+- Binary classifier trained on labeled IoT-23 data (80/20 stratified split)
+- `n_estimators=100`, `max_depth=6`
+- Achieves **97.2% accuracy** on the test set
 
-### Data & Analytics
-- **Isolation Forest**: Anomaly detection algorithm
-- **K-Means Clustering**: Device behavior clustering
-- **Real-time Scoring**: Sub-second inference
-- **Mock Data Generation**: Realistic healthcare IoT simulation
+### 3. CUSUM (Change-Point Detection)
+- Cumulative Sum analysis on 5-minute time windows per device
+- Detects sudden shifts in `bytes_sent` and `connection_count`
+- `threshold=8.0`, `drift=1.0`
 
-### Architecture
-- **Component-Based**: Modular, reusable components
-- **Professional Theme**: Cybersecurity-focused dark mode
-- **Responsive Design**: Mobile to enterprise displays
-- **Type-Safe**: Zero TypeScript errors in production
-
-## 📁 Project Structure
+### Trust Score Formula
 
 ```
-jss/
-├── app/
-│   ├── layout.tsx                 # Root layout with theme
-│   ├── globals.css                # Global theme & styles
-│   ├── dashboard/page.tsx         # Main SOC dashboard
-│   ├── devices/page.tsx           # Device explorer
-│   ├── alerts/page.tsx            # Alerts center
-│   ├── analytics/page.tsx         # ML analytics
-│   └── architecture/page.tsx      # System architecture
-├── components/
-│   ├── metric-card.tsx            # Reusable metric card
-│   ├── alerts-feed.tsx            # Alert feed display
-│   ├── alert-timeline.tsx         # 24h timeline chart
-│   ├── alert-table.tsx            # Alert table
-│   ├── device-table.tsx           # Device table
-│   ├── device-detail.tsx          # Investigation panel
-│   ├── trust-score-gauge.tsx      # ML gauge visualization
-│   ├── incident-detail-panel.tsx  # Incident modal
-│   └── attack-simulator.tsx       # Demo attack simulator
-├── hooks/
-│   └── use-attack-simulation.ts   # Attack state hook
-├── contexts/
-│   └── attack-simulation-context.tsx # Global context
-├── lib/
-│   ├── types.ts                   # TypeScript interfaces
-│   ├── api.ts                     # API client functions
-│   ├── mock-data.ts               # Mock data generators
-│   └── attack-simulator-integration.ts # Integration guide
-├── tailwind.config.ts             # Tailwind configuration
-├── tsconfig.json                  # TypeScript config
-├── CODE_REVIEW.md                 # Detailed code review
-└── README.md                      # This file
+trust = 0.4 * IF_score + 0.5 * XGB_score - CUSUM_penalty
 ```
 
-## 🚀 Getting Started
+- **IF_score**: Min-max normalized anomaly score (0–100)
+- **XGB_score**: `(1 - malicious_probability) * 100`
+- **CUSUM_penalty**: 10 if change-point detected, else 0
+- Final score clamped to 0–100
+
+| Score Range | Classification |
+|-------------|---------------|
+| > 80        | Healthy       |
+| 50–80       | Suspicious    |
+| < 50        | ALERT         |
+
+## Dataset
+
+Uses the **IoT-23 dataset** from Stratosphere Lab (Czech Technical University) — real network traffic captured from IoT devices including both malicious (botnet) and benign behavior.
+
+- **29,634 connections** from **30 devices** (19 unique after filtering)
+- **21,254 malicious** / **8,380 benign** connections
+- Attack types: DDoS, C&C, Horizontal Port Scan, C&C Heartbeat, File Download, Okiru Botnet, Data Exfiltration
+
+Source files:
+- `conn.log.labeled.malware` — CTU-34-1 (Mirai botnet)
+- `conn.log.labeled.malware2` — CTU-42-1
+- `conn.log.labeled.malware3` — CTU-44-1
+- `conn.log.labeled.benign` — Honeypot-4-1
+- `conn.log.labeled.benign2` — Honeypot-5-1
+
+## Dashboard (Next.js 14)
+
+A real-time monitoring dashboard built with Next.js 14, Tailwind CSS, and Recharts.
+
+### Pages
+
+| Page | Description |
+|------|-------------|
+| **Dashboard** | Overview with device health distribution, trust score gauges, alert timeline |
+| **Attack Intel** | Narrative attack overview — What/How/Where/When with stats and visualizations |
+| **Devices** | Device grid with trust scores, click any device for full IP deep-dive |
+| **Alerts** | Alert feed with severity filtering, deviation explanations |
+| **Analytics** | Feature distributions, algorithm performance comparisons |
+| **Architecture** | System architecture and pipeline documentation |
+
+### IP Deep-Dive Panel
+
+Click any device to see:
+- Trust score with classification badge
+- Individual algorithm scores (Isolation Forest, XGBoost, CUSUM)
+- Trust formula breakdown
+- Attack type distribution with bar charts
+- Traffic statistics (10 metrics)
+- Behavioral features (ML input values)
+- Network targets (top destination IPs/ports)
+- Connection state analysis
+- Alert history
+- Raw connections table (last 20 Zeek records)
+
+## Project Structure
+
+```
+MedIoT_Eclipse/
+├── main.py                      # Pipeline orchestrator (7 phases)
+├── run_test_cases.py            # Run test cases through trained models
+├── strong_test_cases.csv        # 150 test cases (7 attack scenarios)
+├── requirements.txt             # Python dependencies
+│
+├── preprocessing/
+│   └── feature_engineering.py   # IoT-23 parsing, sliding window features
+│
+├── models/
+│   ├── anomaly_model.py         # Isolation Forest training & scoring
+│   ├── xgboost_model.py         # XGBoost training & evaluation
+│   └── cusum_detector.py        # CUSUM change-point detection
+│
+├── scoring/
+│   └── trust_score.py           # Trust score computation & merging
+│
+├── alerts/
+│   ├── alert_engine.py          # Alert generation with explanations
+│   └── attack_overview.py       # Narrative attack report (What/How/Where/When)
+│
+├── data/                        # IoT-23 dataset files & pipeline outputs
+│   ├── conn.log.labeled.*       # Raw Zeek connection logs
+│   ├── timeseries.csv           # Processed connection data
+│   ├── device_features.csv      # Sliding window feature vectors
+│   ├── trust_scores.csv         # Final trust scores per device
+│   └── attack_overview.json     # Structured attack report
+│
+└── mediot UI/                   # Next.js 14 dashboard
+    ├── app/                     # App router pages
+    ├── components/              # React components
+    ├── contexts/                # Global filter state
+    ├── lib/                     # Types, API helpers
+    └── public/data/             # Static JSON data for dashboard
+```
+
+## Getting Started
 
 ### Prerequisites
+
+- Python 3.9+
 - Node.js 18+
 - npm or yarn
 
-### Installation
+### Run the ML Pipeline
 
 ```bash
-# Clone repository
-git clone <repository-url>
-cd jss
+pip install -r requirements.txt
+python main.py
+```
 
-# Install dependencies
+This runs all 7 phases:
+1. Data loading & preprocessing
+2. Feature engineering (30-min sliding windows)
+3. Isolation Forest training
+4. XGBoost training & evaluation
+5. CUSUM change-point detection
+6. Trust score computation & alerts
+7. Attack overview generation
+
+### Run Test Cases
+
+```bash
+python run_test_cases.py
+```
+
+Runs 150 test cases through trained models and exports results to the dashboard.
+
+### Launch the Dashboard
+
+```bash
+cd "mediot UI"
 npm install
-
-# Run development server
 npm run dev
-
-# Open browser
-# Navigate to http://localhost:3000
 ```
 
-### Build for Production
+Open http://localhost:3000 to view the dashboard.
 
-```bash
-npm run build
-npm start
-```
+## Tech Stack
 
-## 🎮 Using the Dashboard
+**Backend / ML Pipeline:**
+- Python, Pandas, NumPy
+- scikit-learn (Isolation Forest)
+- XGBoost
+- Custom CUSUM implementation
 
-### Dashboard (`/dashboard`)
-- View real-time metrics
-- See trust score distribution
-- Monitor network activity
-- Review alert feed
+**Frontend / Dashboard:**
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Recharts
+- React Context API
 
-### Device Explorer (`/devices`)
-- Browse all monitored devices
-- View device statistics
-- Click device row → see detailed panel
-- Monitor device health
+## Authors
 
-### Alerts Center (`/alerts`)
-- View alert timeline
-- Review alert table
-- Click alert → incident detail panel
-- See attack type and recommendations
-
-### Analytics (`/analytics`)
-- Device behavior clustering
-- Feature importance analysis
-- Anomaly score distribution
-- ML model metrics
-
-### Architecture (`/architecture`)
-- Understand system pipeline
-- Review technology stack
-- See how it works
-
-## 🎯 Attack Simulation Feature
-
-For hackathon demos, use the attack simulator:
-
-```typescript
-// In any page
-import { AttackSimulator } from '@/components/attack-simulator';
-
-// Add to page
-<AttackSimulator
-  devices={devices}
-  onAttackTriggered={(result) => {
-    // Refetch data to show impact
-  }}
-/>
-```
-
-**What happens:**
-1. Random device selected
-2. Random attack type chosen
-3. Simulated metrics changes:
-   - Traffic: +2-10 KB
-   - DNS: +50-250 queries
-   - Trust: -20-60 points
-4. Notification shows details
-5. Callback triggers UI updates
-
-Perfect for showing real-time system response!
-
-## 🎨 Professional Theme
-
-Dark cybersecurity theme optimized for SOC operations:
-
-```css
-/* Color Palette */
---bg-primary: #0b0f1a;        /* Deep space black */
---bg-secondary: #1e293b;      /* Card backgrounds */
---accent-success: #22c55e;    /* Green - healthy */
---accent-warning: #eab308;    /* Yellow - caution */
---accent-danger: #ef4444;     /* Red - critical */
---accent-info: #0284c7;       /* Blue - info */
-```
-
-Features:
-- ✅ Professional dark mode
-- ✅ Responsive design
-- ✅ Smooth animations
-- ✅ Accessibility compliant
-- ✅ Enterprise appearance
-
-## 📊 Data Flow
-
-```
-getDevices()          → Fetch all monitored devices
-  ↓
-getDeviceById()       → Get specific device details
-  ↓
-getAlerts()           → Fetch security alerts
-  ↓
-getNetworkMetrics()   → Get network statistics
-  ↓
-simulateAttack()      → Demo attack simulation
-```
-
-**Mock Data Generators:**
-- `generateDevices()`: Realistic hospital IoT devices
-- `generateAlerts()`: Security alert scenarios
-- `generateNetworkMetrics()`: Network statistics
-- ML simulations: Anomaly scores, trust scores
-
-## ✅ Code Quality
-
-- **TypeScript**: Full type safety, zero errors
-- **Components**: 12+ reusable components
-- **Pages**: 6 comprehensive pages
-- **Functions**: 15+ helper utilities
-- **Tests**: Ready for unit/integration testing
-
-## 🎓 For Hackathon Judges
-
-### Demo Flow
-1. Open dashboard → see live metrics
-2. Go to Devices → explore device inventory
-3. Check Alerts → view incident response
-4. Visit Analytics → see ML capabilities
-5. View Architecture → understand the system
-6. Run Attack Simulator → show real-time response
-
-### Impressive Features
-- Professional UI/UX matching enterprise SOC tools
-- Complete end-to-end system
-- Interactive demo capabilities
-- ML-driven security insights
-- Comprehensive documentation
-- Production-ready code quality
-
-## 📝 API Functions
-
-All functions are type-safe and return Promise objects:
-
-```typescript
-// Device Management
-getDevices(): Promise<Device[]>
-getDeviceById(id: string): Promise<Device | null>
-
-// Alerts
-getAlerts(): Promise<Alert[]>
-
-// Metrics
-getNetworkMetrics(): Promise<NetworkMetrics>
-getDeviceAnalytics(id: string): Promise<DeviceAnalytics>
-getTrustScore(id: string): Promise<TrustScore>
-
-// Demo
-simulateAttack(type: string, deviceId?: string): Promise<{success, message}>
-```
-
-## 🔒 Security Notes
-
-- Mock data only (no production data)
-- Type-safe all operations
-- Input validation on API calls
-- Error handling comprehensive
-- No sensitive data in code
-
-## 📚 Component Reference
-
-### Pages
-- `DashboardPage`: Main SOC dashboard
-- `DevicesPage`: Device inventory and management
-- `AlertsPage`: Alert monitoring and response
-- `AnalyticsPage`: ML-driven analytics
-- `ArchitecturePage`: System explanation
-
-### Components
-- `MetricCard`: Reusable metric display
-- `AlertsFeed`: Alert feed display
-- `AlertTimeline`: 24-hour timeline chart
-- `AlertTable`: Sortable alert table
-- `DeviceTable`: Device inventory table
-- `DeviceDetail`: Device investigation panel
-- `TrustScoreGauge`: ML visualization
-- `IncidentDetailPanel`: Incident response modal
-- `AttackSimulator`: Interactive attack demo
-
-### Hooks
-- `useAttackSimulation()`: Attack state management
-
-### Contexts
-- `AttackSimulationProvider`: Global attack state
-- `useAttackSimulationContext()`: Access global state
-
-## 🚦 Performance
-
-- **Load Time**: <1s for dashboard
-- **Detection**: <1s for anomaly detection
-- **Charts**: Sub-100ms rendering
-- **Pagination**: 10 items per page default
-- **Responsive**: Optimized for mobile to desktop
-
-## 🎯 Future Enhancements
-
-- Real backend API integration
-- Database persistence
-- WebSocket real-time updates
-- Actual ML model integration
-- User authentication
-- Advanced search/filter
-- Export capabilities
-- Multi-user support
-- Audit logging
-
-## 📄 License
-
-Project created for hackathon demonstration purposes.
-
-## 👥 Contact
-
-For questions or feedback, please refer to the project documentation or contact the development team.
-
----
-
-**MedIoT Shield** - Protecting Healthcare Through Intelligent IoT Security
-
-*Created for the 2024 Hackathon*
-*Professional SOC Monitoring Platform*
+Built for hackathon by Team Eclipse.

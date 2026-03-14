@@ -1,0 +1,13 @@
+{
+  "totalDevices": 150,
+  "healthyDevices": 25,
+  "suspiciousDevices": 125,
+  "criticalAlerts": 2,
+  "networkTraffic": 20476647,
+  "totalConnections": 150,
+  "maliciousConnections": 105,
+  "maliciousPct": 70.0,
+  "testAccuracy": 30.0,
+  "correctPredictions": 45,
+  "incorrectPredictions": 105
+}
